@@ -53,6 +53,7 @@ path: ~/klipper_dockable_probe
 origin: https://github.com/nielsvz/klipper_dockable_probe.git
 install_script: install.sh
 managed_services: klipper
+primary_branch: main
 ```
 
 This requires this repository to be cloned into your home directory (e.g. /home/pi):
