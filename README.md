@@ -37,7 +37,7 @@ An alternative would be to clone this repo and run the `install.sh` script. Like
 
 ```bash
 cd /home/pi
-git clone https://github.com/protoloft/klipper_dockable_probe.git
+git clone https://github.com/nielsvz/klipper_dockable_probe.git
 ./klipper_dockable_probe/install.sh
 ```
 
