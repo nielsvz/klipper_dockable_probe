@@ -6,6 +6,7 @@ attaches to the toolhead through some means of mechanical coupling.
 This coupling is commonly done with magnets though this module can support
 a variety of designs including servo and stepper actuated couplings.
 
+- [Credits](#credits)
 - [Installation](#installation)
     - [Moonraker Update Manager](#moonraker-update-manager)
 - [Basic Configuration](#basic-configuration)
@@ -17,6 +18,11 @@ a variety of designs including servo and stepper actuated couplings.
   - [Gcode commands](#gcode-commands)
   - [Typical probe execution flow](#typical-probe-execution-flow)
 - [Use in macros](#use-in-macros)
+
+# Credits
+`dockable_probe.py` and most of the content in this README have been taken from Mental's [Klipper fork](https://github.com/mental405/klipper/tree/work-annex-probe) and the [related PR](https://github.com/Klipper3d/klipper/pull/4328).
+
+The install script and the [Moonraker](https://github.com/arksine/moonraker) update mechanism were copied from Protoloft's [Z Calibration](https://github.com/protoloft/klipper_z_calibration).
 
 # Installation
 
