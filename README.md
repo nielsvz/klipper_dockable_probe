@@ -6,6 +6,13 @@ attaches to the toolhead through some means of mechanical coupling.
 This coupling is commonly done with magnets though this module can support
 a variety of designs including servo and stepper actuated couplings.
 
+## Warning
+:warning: I am not the maintainer of this module, I merely copied it with the sole purpose of being able to use Moonraker's update manager to keep it up to date on all of my printers.
+
+Please report any issues to the original author [here](https://github.com/mental405/klipper/)
+
+## Table of Contents
+
 - [Credits](#credits)
 - [Installation](#installation)
     - [Moonraker Update Manager](#moonraker-update-manager)
@@ -53,7 +60,7 @@ It's possible to keep this extension up to date with the Moonraker's update mana
 adding this configuration block to the "moonraker.conf" of your printer:
 
 ```text
-[update_manager client dockable_probe]
+[update_manager dockable_probe]
 type: git_repo
 path: ~/klipper_dockable_probe
 origin: https://github.com/nielsvz/klipper_dockable_probe.git
