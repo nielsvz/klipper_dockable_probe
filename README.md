@@ -7,9 +7,11 @@ This coupling is commonly done with magnets though this module can support
 a variety of designs including servo and stepper actuated couplings.
 
 ## Warning
-:warning: I am not the maintainer of this module, I merely copied it with the sole purpose of being able to use Moonraker's update manager to keep it up to date on all of my printers.
+:warning: **I am not the maintainer of this module**, I merely copied it with the sole purpose of being able to use Moonraker's update manager to keep it up to date on all of my printers.
 
 Please report any issues to the original author [here](https://github.com/mental405/klipper/)
+
+This project is archived because I no longer use `dockable_probe` in favor of Beacon.
 
 ## Table of Contents
 
